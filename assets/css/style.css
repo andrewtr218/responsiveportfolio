@@ -36,11 +36,9 @@ main{
 @media screen and (min-width: 768px){
     .navbar-brand{
         width: 33% !important;
-        margin-left: 3.125% !important;
     }
     .navbar{
-        width: 60.75%;
-        margin-right: 3.125% !important;
+        width: 67%
     }
 }
 @media screen and (min-width: 980px){
