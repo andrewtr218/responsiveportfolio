@@ -10,6 +10,9 @@ body{
     margin: 0;
     text-align: center;
 }
+.navbar{
+    width: 100%;
+}
 .nav-link{
     color: lightslategray;
 }
@@ -28,4 +31,20 @@ main{
     background: darkgray;
     text-align: center;
     border-top: 10px solid teal;
+}
+
+@media screen and (min-width: 768px){
+    .navbar-brand{
+        width: 33% !important;
+        margin-left: 3.125% !important;
+    }
+    .navbar{
+        width: 60.75%;
+        margin-right: 3.125% !important;
+    }
+}
+@media screen and (min-width: 980px){
+    .container{
+        margin-left: 2.10459184%;
+    }
 }
